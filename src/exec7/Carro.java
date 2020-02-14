@@ -18,7 +18,7 @@ public class Carro {
 		
 	}
 	
-	public Carro(String modeloCarro, String placaDoCarro, int velocidadeMaxima, String combustivel, String cor, double valor) {
+	public Carro(String modeloCarro, String placaDoCarro, int velocidadeMaxima, String combustivel, String cor, double valor, boolean vendido) {
 		this.modeloCarro = modeloCarro;
 		this.placaDoCarro = placaDoCarro;
 		this.velocidadeMaxima = velocidadeMaxima;
