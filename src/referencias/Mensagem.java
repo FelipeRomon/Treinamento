@@ -1,4 +1,4 @@
-package exec9;
+package referencias;
 
 /**
  * Classe responsavel pelas mensagens exibidas.

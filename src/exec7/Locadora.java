@@ -26,15 +26,20 @@ public class Locadora extends Carro {
 	public Locadora() {
 
 		while (exit == false) {
-			
+			// Pegando a exceção
 			try {
 				String entrada = JOptionPane.showInputDialog(
 						"Como deseja realizar a busca: \n 1 - Modelo \n 2 - Velocidade \n 3 - Combustivel \n 4 -Cor \n"
 								+ " 5 - Mostrar todos os carros \n 6 - Comprar \n 7 - Adicionar carro \n\n 0 - Sair");
 			
+			// Metodo para habilitar o botão cancelar e o X
+				if(entrada == null) {
+					System.exit(0);
+				}
 				
 				int pedido = Integer.parseInt(entrada);
-					
+				
+			//  metodo que cria os casos
 				switch (pedido) {
 				
 				
@@ -76,6 +81,7 @@ public class Locadora extends Carro {
 					break;
 				}
 
+		//  tratamento da exceção
 			} catch (NumberFormatException e) {
 				JOptionPane.showMessageDialog(null, "COMANDO INVALIDO!");
 				new Locadora();
@@ -89,6 +95,8 @@ public class Locadora extends Carro {
 	public void buscarModelo() {
 		mensagem = "";
 		String modelo = (JOptionPane.showInputDialog("Digite o modelo do veiculo: ")).toUpperCase();
+		
+		// metodo para rodar toda lista
 		for (int i = 0; i < vetorCarro.length; i++) {
 
 			if (vetorCarro[i].modeloCarro.equals(modelo) && vetorCarro[i].modeloCarro != "") {

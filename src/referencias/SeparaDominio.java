@@ -1,4 +1,4 @@
-package exec9;
+package referencias;
 /**
  * Classe que mostra a separação de partes de um emil e funções do JOptionPane
  * @author fcorrea

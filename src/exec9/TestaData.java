@@ -1,8 +1,9 @@
 package exec9;
 /**
- * 
+ * Classe responsavel por exemplificar herança
  * @author fcorrea
- *
+ * @since 17/02/2020
+ * @version 0.1
  */
 public class TestaData {
 

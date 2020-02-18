@@ -1,4 +1,4 @@
-package exec9;
+package referencias;
 
 /**
  * Classe para modificar uma String

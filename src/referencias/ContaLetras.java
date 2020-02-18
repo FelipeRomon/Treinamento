@@ -1,4 +1,4 @@
-package exec9;
+package referencias;
 
 /**
  * Classe para contar numero de letras numa String

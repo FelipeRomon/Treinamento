@@ -1,4 +1,10 @@
 package exec10;
+/**
+ * Classe responsavel ler arquivos arquivos
+ * @author fcorrea
+ * @since 17/02/2020
+ * @version 0.1
+ */
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
